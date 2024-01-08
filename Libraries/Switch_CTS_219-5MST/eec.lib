@@ -1,0 +1,55 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CTS 219-5MST
+#
+DEF 219-5MST SW 0 40 Y Y 5 L N
+F0 "SW" 0 200 50 H V L CNN 
+F1 "219-5MST" 0 300 50 H V L CNN 
+F2 "CTS-219-5MST-*" 0 400 50 H I L CNN 
+F3 "https://www.ctscorp.com/wp-content/uploads/219.pdf" 0 500 50 H I L CNN 
+F4 "SPST" 0 600 50 H I L CNN "Circuit"
+F5 "100mA" 0 700 50 H I L CNN "Current Rating"
+F6 "5" 0 800 50 H I L CNN "Number of Positions"
+F7 "20VDC" 0 900 50 H I L CNN "Voltage Rating"
+F8 "Switch" 0 1000 50 H I L CNN "category"
+F9 "Dip Switch SPST 5 Position Surface Mount Slide (Standard) Actuator 100mA 20VDC" 0 1100 50 H I L CNN "digikey description"
+F10 "CT2195MST-ND" 0 1200 50 H I L CNN "digikey part number"
+F11 "yes" 0 1300 50 H I L CNN "lead free"
+F12 "43ab9c41a74426f7" 0 1400 50 H I L CNN "library id"
+F13 "CTS" 0 1500 50 H I L CNN "manufacturer"
+F14 "774-2195MST" 0 1600 50 H I L CNN "mouser part number"
+F15 "SMT_14MM17_6MM7" 0 1700 50 H I L CNN "package"
+F16 "yes" 0 1800 50 H I L CNN "rohs"
+F17 "+85°C" 0 1900 50 H I L CNN "temperature range high"
+F18 "-55°C" 0 2000 50 H I L CNN "temperature range low"
+DRAW
+X 1 1 100 0 100 R 40 0 1 1 U 
+X 10 10 500 0 100 L 40 0 1 1 U 
+C 230 0 20 1 1 0 N
+C 370 0 20 1 1 0 N
+P 2 1 1 0 250 10 350 70 N
+X 2 2 100 0 100 R 40 0 2 1 U 
+X 9 9 500 0 100 L 40 0 2 1 U 
+C 230 0 20 2 1 0 N
+C 370 0 20 2 1 0 N
+P 2 2 1 0 250 10 350 70 N
+X 3 3 100 0 100 R 40 0 3 1 U 
+X 8 8 500 0 100 L 40 0 3 1 U 
+C 230 0 20 3 1 0 N
+C 370 0 20 3 1 0 N
+P 2 3 1 0 250 10 350 70 N
+X 4 4 100 0 100 R 40 0 4 1 U 
+X 7 7 500 0 100 L 40 0 4 1 U 
+C 230 0 20 4 1 0 N
+C 370 0 20 4 1 0 N
+P 2 4 1 0 250 10 350 70 N
+X 5 5 100 0 100 R 40 0 5 1 U 
+X 6 6 500 0 100 L 40 0 5 1 U 
+C 230 0 20 5 1 0 N
+C 370 0 20 5 1 0 N
+P 2 5 1 0 250 10 350 70 N
+ENDDRAW
+ENDDEF
+#
+# End Library
